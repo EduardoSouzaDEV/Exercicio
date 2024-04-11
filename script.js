@@ -3,7 +3,7 @@ function carregar(){
     let img = document.getElementById('imagem')
     let dia = new Date()
     let hora = dia.getHours()
-    hora = 19
+    
     msg.innerHTML = `Olá, são exatamente ${hora} horas`
 
     if(hora >= 0 && hora < 12){
